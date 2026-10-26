@@ -1,0 +1,44 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.bk
+
+# Cargo
+Cargo.lock.orig
+
+# Python & CPython artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.pyd
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Environment and sensitive keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*wallet*.json
+id.json
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
